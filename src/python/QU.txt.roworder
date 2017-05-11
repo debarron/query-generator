@@ -1,0 +1,11 @@
+val queries = List(("SELECT imageBytes FROM data WHERE  partitionIndex = 3  OR  partitionIndex = 6  OR  partitionIndex = 7  OR  partitionIndex = 8 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 2  OR  partitionIndex = 3  OR  partitionIndex = 6  OR  partitionIndex = 7 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 0  OR  partitionIndex = 1  OR  partitionIndex = 4  OR  partitionIndex = 5 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 7  OR  partitionIndex = 8  OR  partitionIndex = 9  OR  partitionIndex = 12 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 5  OR  partitionIndex = 2  OR  partitionIndex = 3  OR  partitionIndex = 6 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 8  OR  partitionIndex = 9  OR  partitionIndex = 12  OR  partitionIndex = 13 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 12  OR  partitionIndex = 13  OR  partitionIndex = 10  OR  partitionIndex = 11 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 9  OR  partitionIndex = 12  OR  partitionIndex = 13  OR  partitionIndex = 10 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 1  OR  partitionIndex = 4  OR  partitionIndex = 5  OR  partitionIndex = 2 ", 4),
+("SELECT imageBytes FROM data WHERE  partitionIndex = 13  OR  partitionIndex = 10  OR  partitionIndex = 11  OR  partitionIndex = 14 ", 4)
+)

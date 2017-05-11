@@ -1,0 +1,11 @@
+val queries = List(("SELECT imageBytes FROM data partitionZIndex >= 6 AND partitionZIndex <= 9", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 5 AND partitionZIndex <= 8", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 1 AND partitionZIndex <= 4", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 8 AND partitionZIndex <= 11", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 4 AND partitionZIndex <= 7", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 9 AND partitionZIndex <= 12", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 11 AND partitionZIndex <= 14", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 10 AND partitionZIndex <= 13", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 2 AND partitionZIndex <= 5", 4),
+("SELECT imageBytes FROM data partitionZIndex >= 12 AND partitionZIndex <= 15", 4)
+)
